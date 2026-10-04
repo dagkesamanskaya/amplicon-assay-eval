@@ -1,0 +1,17 @@
+name: amplicon
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - snakemake
+  - bwa
+  - samtools
+  - bcftools
+  - bedtools
+  - fastp
+  - rtg-tools        # vcfeval replaces hap.py (no Mac build)
+  - pandas
+  - numpy
+  - matplotlib
+  - pysam
+  - pytest
+  - jupyterlab
